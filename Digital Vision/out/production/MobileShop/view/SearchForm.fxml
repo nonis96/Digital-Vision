@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="652.0" prefWidth="502.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SearchFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="278.0" layoutY="50.0" prefHeight="31.0" prefWidth="89.0" text="Home">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="389.0" layoutY="50.0" prefHeight="31.0" prefWidth="89.0" text="Contac Us">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="14.0" prefHeight="31.0" prefWidth="236.0" text="Welcome to our world" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="136.0" fitWidth="91.0" layoutX="30.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/1.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="113.0" fitWidth="95.0" layoutX="30.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/3.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="136.0" fitWidth="84.0" layoutX="31.0" layoutY="377.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/2.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="136.0" fitWidth="86.0" layoutX="29.0" layoutY="526.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/4.PNG" />
+         </image>
+      </ImageView>
+      <Button layoutX="338.0" layoutY="143.0" mnemonicParsing="false" onAction="#btnClickToBy1OnAction" prefHeight="35.0" prefWidth="153.0" text="Add to wishlist &gt;&gt;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="339.0" layoutY="283.0" mnemonicParsing="false" onAction="#btnClickToBy2OnAction" text="Add to wishlist &gt;&gt;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="341.0" layoutY="421.0" mnemonicParsing="false" onAction="#btnClickToBy3OnAction" prefHeight="35.0" prefWidth="153.0" text="Add to wishlist &gt;&gt;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="345.0" layoutY="564.0" mnemonicParsing="false" onAction="#btnClickToBy4OnAction" text="Add to wishlist &gt;&gt;">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblBrand1" layoutX="157.0" layoutY="145.0" prefHeight="25.0" prefWidth="116.0" text="Samsung J2" textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice1" layoutX="233.0" layoutY="174.0" prefHeight="25.0" prefWidth="48.0" text="39 000" textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBrand2" layoutX="159.0" layoutY="282.0" prefHeight="25.0" prefWidth="116.0" text="Samsung " textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice2" layoutX="234.0" layoutY="308.0" prefHeight="25.0" prefWidth="48.0" text="9 000" textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBrand3" layoutX="159.0" layoutY="421.0" prefHeight="25.0" prefWidth="116.0" text="Vovo 8" textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice3" layoutX="230.0" layoutY="448.0" prefHeight="18.0" prefWidth="56.0" text="69 520" textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBrand4" layoutX="164.0" layoutY="557.0" prefHeight="25.0" prefWidth="116.0" text="Back Cover" textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice4" layoutX="239.0" layoutY="583.0" prefHeight="25.0" prefWidth="48.0" text="1 000" textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblID" layoutX="280.0" layoutY="18.0" prefHeight="25.0" prefWidth="116.0" textFill="#ffffffeb">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBrand11" layoutX="157.0" layoutY="123.0" prefHeight="25.0" prefWidth="116.0" text="Brand :- Samsung" textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBrand21" layoutX="159.0" layoutY="258.0" prefHeight="25.0" prefWidth="116.0" text="Brand :- hand free" textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBrand31" layoutX="159.0" layoutY="396.0" prefHeight="25.0" prefWidth="116.0" text="Brand :-Vovo " textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBrand41" layoutX="164.0" layoutY="529.0" prefHeight="25.0" prefWidth="131.0" text="Brand :- Back Cover" textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice11" layoutX="157.0" layoutY="173.0" prefHeight="25.0" prefWidth="68.0" text="Price :- Rs:" textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice111" layoutX="159.0" layoutY="307.0" prefHeight="25.0" prefWidth="68.0" text="Price :- Rs:" textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice1111" layoutX="157.0" layoutY="444.0" prefHeight="25.0" prefWidth="68.0" text="Price :- Rs:" textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice11111" layoutX="163.0" layoutY="582.0" prefHeight="25.0" prefWidth="68.0" text="Price :- Rs:" textFill="#000000ea">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
